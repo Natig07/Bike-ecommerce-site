@@ -1,0 +1,656 @@
+.contact-main {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	.get-touch {
+		width: 42%;
+		padding: 10px 40px;
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		justify-content: space-evenly;
+		h1 {
+			font-size: 2.4rem;
+			text-align: center;
+			color: rgb(14, 87, 14);
+		}
+		div {
+			display: flex;
+			flex-direction: column;
+			label {
+				font-size: 1.2rem;
+			}
+			input {
+				outline: none;
+				background-color: transparent;
+				color: darkgreen;
+				border: none;
+				font-size: 1.1rem;
+				border-radius: 10px;
+				padding: 5px 8px;
+				border: 1px solid green;
+				position: relative;
+				margin: 7px 0;
+			}
+			textarea {
+				border: none;
+				border-radius: 10px;
+				border: 1px solid green;
+				color: rgb(9, 89, 9);
+				padding: 10px;
+				font-size: 1.1rem;
+				outline: none;
+				margin: 8px 0;
+				resize: none;
+			}
+		}
+		button {
+			width: fit-content;
+			border: none;
+			border-radius: 10px;
+			padding: 6px 8px;
+			font-size: 1.1rem;
+			color: white;
+			background-color: green;
+			border: 1px solid transparent;
+			transition: 0.5s ease;
+			cursor: pointer;
+			&:hover {
+				background-color: white;
+				color: green;
+				border-color: green;
+			}
+			&:active {
+				background-color: green;
+			}
+		}
+	}
+	.details {
+		width: 45%;
+		padding: 40px;
+		border-radius: 20px;
+		background-image: linear-gradient(
+				rgba(0, 0, 0, 0.224),
+				rgba(0, 0, 0, 0.447)
+			),
+			url("./src/assets/images/bg-4.jpg");
+		background-size: cover;
+		color: white;
+		h2 {
+			font-size: 2.5rem;
+			margin: 10px 0;
+		}
+		.section {
+			margin: 20px auto;
+			padding: 10px;
+			h4 {
+				font-size: 1.4rem;
+				color: lightgreen;
+			}
+			p {
+				font-size: 1.1rem;
+				margin: 10px 0;
+				a {
+					text-decoration: none;
+					color: white;
+					width: 100%;
+				}
+			}
+			.section-icon {
+				font-size: 23px;
+				color: lightgreen;
+			}
+		}
+	}
+}
+.contact-container {
+	.stat {
+		padding: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+		.delivery {
+			padding: 20px 10px;
+			border-radius: 15px;
+			// border: 1.5px solid rgb(11, 174, 11);
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			gap: 10px;
+			width: 17%;
+			.del-icon {
+				font-size: 32px;
+				margin-bottom: 12px;
+				color: orangered;
+			}
+			p {
+				font-size: 1.3rem;
+				font-weight: 500;
+				color: rgb(255, 55, 0);
+				text-align: center;
+			}
+			h2 {
+				color: green;
+				font-size: 2rem;
+				font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+			}
+		}
+		.prod {
+			padding: 20px 10px;
+			border-radius: 15px;
+			// border: 1.5px solid rgb(11, 174, 11);
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			gap: 10px;
+			width: 17%;
+			.com-icon {
+				font-size: 42px;
+				color: orangered;
+			}
+			p {
+				font-size: 1.3rem;
+				font-weight: 500;
+				color: rgb(255, 55, 0);
+				text-align: center;
+			}
+			h2 {
+				color: green;
+				font-size: 2rem;
+				font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+			}
+		}
+	}
+}
+
+body.dark-mode {
+	.contact-main {
+		.get-touch {
+			h1 {
+				color: #34ab34;
+			}
+			div {
+				label {
+					color: var(--white3);
+					font-size: 1.2rem;
+				}
+				input {
+					outline: none;
+					background-color: transparent;
+					color: #abd4ab;
+
+					border: 1px solid #119e11;
+				}
+				textarea {
+					border: 1px solid #119e11;
+					color: #abd4ab;
+					background-color: transparent;
+					margin: 8px 0;
+					resize: none;
+				}
+			}
+			button {
+				color: white;
+				background-color: green;
+				border: 1px solid transparent;
+				transition: 0.5s ease;
+				cursor: pointer;
+				&:hover {
+					background-color: white;
+					color: green;
+					border-color: green;
+				}
+				&:active {
+					background-color: green;
+				}
+			}
+		}
+		.details {
+			background-image: linear-gradient(
+					rgba(0, 0, 0, 0.224),
+					rgba(0, 0, 0, 0.653)
+				),
+				url("./src/assets/images/bg-4.jpg");
+
+			h2 {
+				font-size: 2.5rem;
+				margin: 10px 0;
+			}
+			.section {
+				margin: 20px auto;
+				padding: 10px;
+				h4 {
+					font-size: 1.4rem;
+					color: lightgreen;
+				}
+				p {
+					font-size: 1.1rem;
+					margin: 10px 0;
+					a {
+						text-decoration: none;
+						color: white;
+						width: 100%;
+					}
+				}
+				.section-icon {
+					font-size: 23px;
+					color: lightgreen;
+				}
+			}
+		}
+	}
+	.contact-container {
+		.stat {
+			.delivery {
+				h2 {
+					color: #34ab34;
+					font-size: 2rem;
+					font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+						sans-serif;
+				}
+			}
+			.prod {
+				.com-icon {
+					font-size: 42px;
+					color: orangered;
+				}
+				p {
+					font-size: 1.3rem;
+					font-weight: 500;
+					color: rgb(255, 55, 0);
+					text-align: center;
+				}
+				h2 {
+					color: #34ab34;
+					font-size: 2rem;
+					font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+						sans-serif;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1040px) {
+	:root {
+		font-size: 13px;
+	}
+	.contact-main {
+		.get-touch {
+			width: 42%;
+			padding: 10px 20px;
+			h1 {
+				font-size: 2.4rem;
+			}
+			div {
+				label {
+					font-size: 1.2rem;
+				}
+				input {
+					border-radius: 8px;
+				}
+				textarea {
+					border-radius: 8px;
+					border: 1px solid green;
+				}
+			}
+			button {
+				border-radius: 8px;
+				padding: 5px 8px;
+			}
+		}
+		.details {
+			width: 48%;
+			padding: 20px 30px;
+			border-radius: 18px;
+			h2 {
+				font-size: 2.4rem;
+				margin: 0 0 10px 0;
+			}
+			.section {
+				margin: 15px auto;
+				padding: 10px;
+				h4 {
+					font-size: 1.3rem;
+				}
+				p {
+					font-size: 1.1rem;
+					margin: 10px 0;
+				}
+				.section-icon {
+					font-size: 1.8rem;
+					color: lightgreen;
+				}
+			}
+		}
+	}
+	.contact-container {
+		.stat {
+			padding: 30px;
+			gap: 30px;
+			.delivery {
+				padding: 15px 0;
+
+				gap: 10px;
+				width: 20%;
+				.del-icon {
+					font-size: 2.5rem;
+					margin-bottom: 10px;
+				}
+				p {
+					font-size: 1.3rem;
+				}
+			}
+			.prod {
+				padding: 20px 0;
+				width: 20%;
+				.com-icon {
+					font-size: 3.2rem;
+				}
+			}
+		}
+	}
+
+	body.dark-mode {
+		.contact-main {
+			.get-touch {
+				width: 42%;
+				padding: 10px 20px;
+				h1 {
+					font-size: 2.4rem;
+				}
+				div {
+					label {
+						font-size: 1.2rem;
+					}
+					input {
+						border-radius: 8px;
+					}
+					textarea {
+						border-radius: 8px;
+					}
+				}
+				button {
+					border-radius: 8px;
+					padding: 5px 8px;
+				}
+			}
+			.details {
+				width: 48%;
+				padding: 20px 30px;
+				border-radius: 18px;
+				h2 {
+					font-size: 2.4rem;
+					margin: 0 0 10px 0;
+				}
+				.section {
+					margin: 15px auto;
+					padding: 10px;
+					h4 {
+						font-size: 1.3rem;
+					}
+					p {
+						font-size: 1.1rem;
+						margin: 10px 0;
+					}
+					.section-icon {
+						font-size: 1.8rem;
+					}
+				}
+			}
+		}
+		.contact-container {
+			.stat {
+				padding: 30px;
+				gap: 30px;
+				.delivery {
+					padding: 15px 0;
+
+					gap: 10px;
+					width: 20%;
+					.del-icon {
+						font-size: 2.5rem;
+						margin-bottom: 10px;
+					}
+					p {
+						font-size: 1.3rem;
+					}
+				}
+				.prod {
+					padding: 20px 0;
+					width: 20%;
+					.com-icon {
+						font-size: 3.2rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 884px) {
+	:root {
+		font-size: 12px;
+	}
+	.contact-main {
+		.get-touch {
+			width: 43%;
+			padding: 10px;
+		}
+		.details {
+			width: 54%;
+			padding: 20px 25px;
+			border-radius: 14px;
+			h2 {
+				font-size: 2.4rem;
+			}
+			.section {
+				margin: 12px 0;
+				width: 80%;
+				h4 {
+					font-size: 1.3rem;
+				}
+				p {
+					font-size: 1.1rem;
+					margin: 10px 0;
+				}
+				.section-icon {
+					font-size: 1.6rem;
+					color: lightgreen;
+				}
+			}
+		}
+	}
+	body.dark-mode {
+		.contact-main {
+			.get-touch {
+				width: 43%;
+				padding: 10px;
+			}
+			.details {
+				width: 54%;
+				padding: 20px 25px;
+				border-radius: 14px;
+				h2 {
+					font-size: 2.4rem;
+				}
+				.section {
+					margin: 12px 0;
+					width: 80%;
+					h4 {
+						font-size: 1.3rem;
+					}
+					p {
+						font-size: 1.1rem;
+						margin: 10px 0;
+					}
+					.section-icon {
+						font-size: 1.6rem;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 460px) {
+	.contact-main {
+		padding: 1.2rem;
+		flex-direction: column;
+		.get-touch {
+			width: 80%;
+			margin: auto;
+			padding: 10px;
+			h1 {
+				font-size: 2.1rem;
+				border-bottom: 1px solid green;
+			}
+		}
+		.details {
+			width: 80%;
+			padding: 1.3rem 1.5rem;
+			border-radius: 1rem;
+			margin: 1.3rem auto;
+			align-items: center;
+			h2 {
+				font-size: 2.2rem;
+				text-align: center;
+			}
+			.section {
+				margin: 12px auto;
+				align-items: center;
+				text-align: center;
+				width: 72%;
+				h4 {
+					font-size: 1.3rem;
+				}
+				p {
+					font-size: 1.04rem;
+					margin: 10px 0;
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: column;
+					a {
+						text-decoration: none;
+						color: white;
+						width: 100%;
+					}
+				}
+				.section-icon {
+					font-size: 1.6rem;
+					color: lightgreen;
+				}
+				.ant-flex {
+					justify-content: center;
+				}
+			}
+		}
+	}
+	.contact-container {
+		.stat {
+			width: 100%;
+			padding: 2rem;
+			gap: 20px;
+			.delivery {
+				padding: 1rem 0;
+				gap: 10px;
+				width: 40%;
+				.del-icon {
+					font-size: 2.5rem;
+					margin-bottom: 10px;
+				}
+				p {
+					font-size: 1.2rem;
+				}
+			}
+			.prod {
+				padding: 1.2rem 0;
+				width: 40%;
+				.com-icon {
+					font-size: 3.3rem;
+				}
+			}
+		}
+	}
+
+	body.dark-mode {
+		.contact-main {
+			padding: 1.2rem;
+			flex-direction: column;
+			.get-touch {
+				width: 80%;
+				margin: auto;
+				padding: 10px;
+				h1 {
+					font-size: 2.1rem;
+					border-bottom: 1px solid rgb(36, 171, 36);
+				}
+			}
+			.details {
+				width: 80%;
+				padding: 1.3rem 1.5rem;
+				border-radius: 1rem;
+				margin: 1.3rem auto;
+				align-items: center;
+				h2 {
+					font-size: 2.2rem;
+					text-align: center;
+				}
+				.section {
+					margin: 12px auto;
+					align-items: center;
+					text-align: center;
+					width: 72%;
+					h4 {
+						font-size: 1.3rem;
+					}
+					p {
+						font-size: 1.04rem;
+						margin: 10px 0;
+						display: flex;
+						flex-wrap: wrap;
+						flex-direction: column;
+						a {
+							text-decoration: none;
+							color: white;
+							width: 100%;
+						}
+					}
+					.section-icon {
+						font-size: 1.6rem;
+						color: lightgreen;
+					}
+					.ant-flex {
+						justify-content: center;
+					}
+				}
+			}
+		}
+		.contact-container {
+			.stat {
+				width: 100%;
+				padding: 2rem;
+				gap: 20px;
+				.delivery {
+					padding: 1rem 0;
+					gap: 10px;
+					width: 40%;
+					.del-icon {
+						font-size: 2.5rem;
+						margin-bottom: 10px;
+					}
+					p {
+						font-size: 1.2rem;
+					}
+				}
+				.prod {
+					padding: 1.2rem 0;
+					width: 40%;
+					.com-icon {
+						font-size: 3.3rem;
+					}
+				}
+			}
+		}
+	}
+}

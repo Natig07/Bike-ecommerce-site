@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "Poppins-r";
+	src: url("/src/assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+	font-family: "Mer-r";
+	src: url("/src/assets/fonts/Merriweather/Merriweather-Regular.ttf");
+}
+@font-face {
+	font-family: "noto-sans";
+	src: url("/src/assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "mangen-r";
+	src: url("/src/assets/fonts/mangenka/mengka.otf");
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins-r", sans-serif, Arial, Helvetica, sans-serif;
+}
+html {
+	--white1: #faf9f6;
+	--white2: #fafdff;
+	--white3: #fffff0;
+	--white4: #f0f8ff;
+	--white5: #f8f8ff;
+}

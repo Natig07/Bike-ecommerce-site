@@ -1,0 +1,564 @@
+.form-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid green;
+	img {
+		width: 40px;
+		height: 30px;
+		object-fit: scale-down;
+	}
+	h2 {
+		font-size: 2rem;
+		color: green;
+	}
+}
+.anticon-exclamation-circle {
+	display: none;
+}
+.ant-modal-confirm-body {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-form {
+	.user-input {
+		border: 1px solid gray;
+		padding: 5px 7px;
+		font-size: 1.1rem;
+		color: green;
+		input {
+			&::placeholder {
+				color: gray;
+			}
+		}
+	}
+	.email-input {
+		border: 1px solid gray;
+		padding: 5px 7px;
+		font-size: 1.1rem;
+		color: green;
+		input {
+			&::placeholder {
+				color: gray;
+			}
+		}
+	}
+	.password-input {
+		border: 1px solid gray;
+		padding: 5px 7px;
+		font-size: 1.1rem;
+		color: green;
+		input {
+			&::placeholder {
+				color: gray;
+			}
+		}
+	}
+	.check-input {
+		color: whitesmoke;
+		.ant-checkbox-input {
+			background-color: green !important;
+			border-color: green !important;
+			color: green !important;
+			border-color: green;
+			input {
+				border: 1px solid green;
+				border-color: green !important;
+			}
+		}
+		.ant-checkbox-inner {
+			border-color: green;
+			&:hover {
+				border-color: lightgreen;
+			}
+		}
+	}
+	.ant-checkbox-wrapper {
+		&:hover {
+			.ant-checkbox-inner {
+				border-color: lightgreen !important;
+			}
+		}
+	}
+	.ant-checkbox-wrapper-checked {
+		.ant-checkbox-inner {
+			background-color: green !important;
+		}
+	}
+	.ant-flex {
+		a {
+			padding: 2px 4px;
+			border-radius: 10px;
+			background-color: white;
+			color: rgb(11, 16, 11);
+			&:hover {
+				color: rgb(76, 75, 75);
+			}
+		}
+	}
+	.submit-btn {
+		background-color: green;
+		color: white;
+		border: none;
+		font-size: 1.2rem;
+		transition: 0.5s ease;
+		margin-bottom: 10px;
+		&:hover {
+			background-color: rgb(21, 167, 21) !important;
+			color: white !important;
+		}
+		&:active {
+			background-color: green !important;
+		}
+	}
+}
+
+.close-btn {
+	border: 1px solid rgb(209, 57, 19) !important;
+	font-size: 1rem;
+	border-radius: 4px;
+	color: red;
+	padding: 5px 6px;
+	width: 20%;
+	cursor: pointer;
+	transition: 0.5s ease;
+	&:hover {
+		background-color: rgb(209, 57, 19);
+		color: aliceblue;
+	}
+}
+.ant-modal-content {
+	background-image: url("https://media.istockphoto.com/id/1403016589/photo/one-athletic-young-woman-cycling-outside-sporty-fit-female-wearing-helmet-and-glasses-while.jpg?s=612x612&w=0&k=20&c=f0qiikTZJS8ls2GZVuux9SNq0J5MAf2m6dl_eZPJgAA=");
+	background-position: center;
+	background-size: cover;
+	.ant-modal-body {
+		backdrop-filter: blur(4px);
+		padding: 0 10px;
+	}
+}
+
+body.dark-mode {
+	.ant-modal-header {
+		background-color: #1111114d;
+	}
+
+	.form-title {
+		width: 100%;
+		border-bottom: 1px solid #10bc10;
+
+		h2 {
+			font-size: 2rem;
+			color: #10bc10;
+		}
+	}
+	.anticon-exclamation-circle {
+		display: none;
+	}
+	.ant-modal-confirm-body {
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.login-form {
+		.user-input {
+			border: 1px solid #b4b4b4;
+			padding: 5px 7px;
+			background-color: transparent;
+			font-size: 1.1rem;
+			color: #10a510;
+			input {
+				&::placeholder {
+					color: #adadad;
+				}
+			}
+		}
+		.email-input {
+			border: 1px solid #b4b4b4;
+			padding: 5px 7px;
+			background-color: transparent;
+			font-size: 1.1rem;
+			color: #10a510;
+			input {
+				&::placeholder {
+					color: #adadad;
+				}
+			}
+		}
+		.password-input {
+			border: 1px solid #b4b4b4;
+			padding: 5px 7px;
+			background-color: transparent;
+			font-size: 1.1rem;
+			color: #10a510;
+			input {
+				&::placeholder {
+					color: #adadad;
+				}
+			}
+		}
+		.check-input {
+			color: whitesmoke;
+			.ant-checkbox-input {
+				background-color: #10bc10 !important;
+				border-color: #10bc10 !important;
+				color: #10bc10 !important;
+				border-color: #10bc10;
+				input {
+					border: 1px solid #10bc10;
+					border-color: #10bc10 !important;
+				}
+			}
+			.ant-checkbox-inner {
+				border-color: #10bc10;
+				background-color: transparent;
+
+				&:hover {
+					border-color: lightgreen;
+				}
+			}
+		}
+		.ant-checkbox-wrapper {
+			&:hover {
+				.ant-checkbox-inner {
+					border-color: lightgreen !important;
+				}
+			}
+		}
+		.ant-checkbox-wrapper-checked {
+			.ant-checkbox-inner {
+				background-color: #1aa21a !important;
+			}
+		}
+		.ant-flex {
+			span {
+				color: aliceblue;
+			}
+			a {
+				padding: 2px 4px;
+				border-radius: 4px;
+				background-color: #1a1a1a;
+				color: var(--white4);
+				&:hover {
+					color: rgb(76, 75, 75);
+				}
+			}
+		}
+		.submit-btn {
+			background-color: #10a510;
+			color: white;
+
+			&:hover {
+				background-color: #189e18 !important;
+				color: white !important;
+			}
+			&:active {
+				background-color: green !important;
+				box-shadow: none !important;
+				outline: none !important;
+			}
+		}
+	}
+
+	.close-btn {
+		border: 1px solid #d13913 !important;
+		background-color: transparent;
+		color: var(--white2);
+		background-color: #d13913;
+		&:hover {
+			background-color: transparent;
+			color: #d13913;
+		}
+	}
+	.ant-modal-content {
+		background-image: url("./src/assets/images/form-bg-b.png");
+		background-position: center;
+		background-size: cover;
+		.ant-modal-body {
+			backdrop-filter: blur(12px);
+			padding: 0 10px;
+		}
+	}
+}
+
+@media only screen and (max-width: 884px) {
+	.form-title {
+		img {
+			width: 3.3rem;
+			object-fit: scale-down;
+		}
+		h2 {
+			font-size: 1.7rem;
+		}
+	}
+
+	.login-form {
+		.user-input {
+			border: 1px solid gray;
+			padding: 3px 5px;
+			font-size: 1.1rem;
+			margin: 0;
+		}
+		.email-input {
+			padding: 3px 5px;
+			font-size: 1.1rem;
+			margin: 0;
+		}
+		.password-input {
+			border: 1px solid gray;
+			padding: 5px 7px;
+			font-size: 1.1rem;
+			color: green;
+			input {
+				&::placeholder {
+					color: gray;
+				}
+			}
+		}
+		.check-input {
+			color: whitesmoke;
+			.ant-checkbox-input {
+				background-color: green !important;
+				border-color: green !important;
+				color: green !important;
+				border-color: green;
+				input {
+					border: 1px solid green;
+					font-size: 1rem;
+					border-color: green !important;
+				}
+			}
+		}
+		.ant-checkbox-wrapper {
+			span {
+				font-size: 1rem;
+			}
+		}
+
+		.ant-flex {
+			a {
+				padding: 2px 4px;
+				border-radius: 8px;
+				font-size: 0.9rem;
+				background-color: white;
+				color: rgb(11, 16, 11);
+				&:hover {
+					color: rgb(76, 75, 75);
+				}
+			}
+		}
+		.submit-btn {
+			font-size: 1.1rem;
+			margin: auto;
+			display: block;
+			width: 80%;
+			margin-bottom: 10px;
+			&:hover {
+				background-color: rgb(21, 167, 21) !important;
+				color: white !important;
+			}
+			&:active {
+				background-color: green !important;
+			}
+		}
+	}
+
+	.close-btn {
+		font-size: 1.1rem;
+		padding: 4px;
+		width: 25%;
+	}
+	.ant-modal-content {
+		.ant-modal-body {
+			padding: 0.6rem;
+		}
+	}
+	body.dark-mode {
+		.form-title {
+			img {
+				width: 3.3rem;
+				object-fit: scale-down;
+			}
+			h2 {
+				font-size: 1.7rem;
+			}
+		}
+
+		.login-form {
+			.user-input {
+				padding: 3px 5px;
+				font-size: 1.1rem;
+				margin: 0;
+			}
+			.email-input {
+				padding: 3px 5px;
+				font-size: 1.1rem;
+				margin: 0;
+			}
+			.password-input {
+				padding: 5px 7px;
+				font-size: 1.1rem;
+				input {
+					&::placeholder {
+						color: gray;
+					}
+				}
+			}
+			.check-input {
+				color: whitesmoke;
+				.ant-checkbox-input {
+					background-color: green !important;
+					border-color: green !important;
+					color: green !important;
+					border-color: green;
+					input {
+						border: 1px solid green;
+						font-size: 1rem;
+						border-color: green !important;
+					}
+				}
+			}
+			.ant-checkbox-wrapper {
+				span {
+					font-size: 1rem;
+				}
+			}
+
+			.ant-flex {
+				a {
+					padding: 2px 4px;
+					border-radius: 8px;
+					font-size: 0.9rem;
+					&:hover {
+						color: rgb(76, 75, 75);
+					}
+				}
+			}
+			.submit-btn {
+				font-size: 1.1rem;
+				margin: auto;
+				display: block;
+				width: 80%;
+				margin-bottom: 10px;
+			}
+		}
+
+		.close-btn {
+			font-size: 1.1rem;
+			padding: 4px;
+			width: 25%;
+		}
+		.ant-modal-content {
+			.ant-modal-body {
+				padding: 0.6rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.form-title {
+		img {
+			width: 3rem;
+		}
+		h2 {
+			font-size: 1.4rem;
+		}
+	}
+
+	.login-form {
+		.ant-checkbox-wrapper {
+			span {
+				font-size: 1rem;
+			}
+		}
+
+		.ant-flex {
+			a {
+				padding: 2px 4px;
+				border-radius: 8px;
+				font-size: 0.9rem;
+				background-color: white;
+				color: rgb(11, 16, 11);
+				&:hover {
+					color: rgb(76, 75, 75);
+				}
+			}
+		}
+		.submit-btn {
+			font-size: 1.1rem;
+			margin: auto;
+			display: block;
+			width: 80%;
+			margin-bottom: 10px;
+			&:hover {
+				background-color: rgb(21, 167, 21) !important;
+				color: white !important;
+			}
+			&:active {
+				background-color: green !important;
+			}
+		}
+	}
+
+	.close-btn {
+		font-size: 1.1rem;
+		padding: 4px;
+		width: 25%;
+	}
+	.ant-modal-content {
+		padding: 1rem !important;
+		.ant-modal-body {
+			padding: 0.6rem;
+		}
+	}
+
+	body.dark-mode {
+		.form-title {
+			img {
+				width: 3rem;
+			}
+			h2 {
+				font-size: 1.4rem;
+			}
+		}
+
+		.login-form {
+			.ant-checkbox-wrapper {
+				span {
+					font-size: 1rem;
+				}
+			}
+
+			.ant-flex {
+				a {
+					padding: 2px 4px;
+					border-radius: 8px;
+					font-size: 0.9rem;
+				}
+			}
+			.submit-btn {
+				font-size: 1.1rem;
+				margin: auto;
+				display: block;
+				width: 80%;
+				margin-bottom: 10px;
+			}
+		}
+
+		.close-btn {
+			font-size: 1.1rem;
+			padding: 4px;
+			width: 25%;
+		}
+		.ant-modal-content {
+			padding: 1rem !important;
+			.ant-modal-body {
+				padding: 0.6rem;
+			}
+		}
+	}
+}

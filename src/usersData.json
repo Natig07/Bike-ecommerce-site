@@ -1,0 +1,573 @@
+{
+  "Users": [
+    {
+      "id": "8a16",
+      "regusername": "Natig",
+      "email": "elizade.natiq@gmail.com",
+      "regpassword": "12",
+      "re_password": "12",
+      "remember": true,
+      "cart": [
+        {
+          "model": "Bombtrack MUNROE AL - 27.5\" Urban Bike - 2024 - matt pebble grey",
+          "price": 881,
+          "sale": 22,
+          "o_price": 1129,
+          "imgl": "./src/assets/images/products/boomtrack-c1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 3,
+          "id": "84ba12e6-edd0-4876-a626-7286e21bec76",
+          "catalog": "city",
+          "info": "The Bombtrack MUNROE AL is a stylish and functional urban bike, designed for those who value simplicity and modern aesthetics. Featuring 27.5\" wheels, it offers excellent stability on city roads. Its aluminum frame makes it lightweight and nimble, while the mechanical disc brakes provide reliable stopping power. With a single-speed drivetrain, the bike is easy to maintain, making it ideal for casual city riders who want minimal fuss. The sleek design and reliable build make it a popular choice for daily commutes.",
+          "ratinginfo": [
+            "Good for casual rides, but not recommended for serious trails."
+          ],
+          "features": [
+            "27.5\" wheels for stability",
+            "Aluminium frame",
+            "Mechanical disc brakes",
+            "Single-speed drivetrain"
+          ],
+          "count": 2
+        },
+        {
+          "model": "Cannondale JEKYLL 1 - 29\" Carbon Mountainbike - 2023 - Ginger",
+          "price": 1839,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cannondale-m2.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 5,
+          "id": "40caa9af-31d9-427e-95d7-1fa298909982",
+          "catalog": "mountain",
+          "info": "The Cannondale JEKYLL 1 is a top-tier enduro bike built for aggressive trail riding and conquering technical descents. With a robust carbon frame, SRAM GX Eagle drivetrain, and Fox Float suspension, it offers superior performance in rough conditions. The bike is designed to handle steep descents and technical terrain, making it a great choice for enduro riders who crave precision, power, and control on demanding trails.",
+          "ratinginfo": [
+            "Amazing bike for enduro enthusiasts. Handles tough trails with ease."
+          ],
+          "features": [
+            "Carbon frame",
+            "SRAM GX Eagle drivetrain",
+            "Fox Float suspension",
+            "Tubeless-ready wheels"
+          ],
+          "count": 3
+        },
+        {
+          "model": "Specialized TURBO LEVO COMP - Carbon Electric Mountain Bike - 2023 - satin white sage / deep lake",
+          "price": 2087,
+          "sale": 13,
+          "catalog": "electric",
+          "o_price": 2399,
+          "imgl": "./src/assets/images/products/spec-e1.png",
+          "stockInfo": "In stock!",
+          "id": "8a66dcb8-0d31-4097-bb01-0cedc3bf691c",
+          "rating": 4.8,
+          "info": "The Specialized TURBO LEVO COMP is a high-performance electric mountain bike built for tough, rugged terrains. With a carbon frame, this bike combines lightweight strength and durability, making it ideal for off-road adventures. Its powerful motor assists with uphill climbs, providing extra power when needed.The full suspension ensures maximum comfort during bumpy rides, and the wide tires give you improved traction on challenging surfaces.Whether you're tackling steep hills or rough trails, this bike is designed to perform under extreme conditions, making it a favorite among mountain biking enthusiasts.",
+          "features": [
+            "Carbon frame for lightweight strength",
+            "Powerful motor for uphill climbs",
+            "Full suspension for maximum comfort",
+            "Wide tires for improved traction"
+          ],
+          "ratinginfo": [
+            "Highly praised for its balance of power and agility on tough trails."
+          ],
+          "count": 5
+        },
+        {
+          "model": "CUBE PHENIX C:68X SLX - 29\" Carbon Mountainbike - 2025 - teamline",
+          "price": 2439,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cube-m1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 2,
+          "id": "02f4def8-f995-44c5-8349-0a4687927829",
+          "catalog": "mountain",
+          "info": "The CUBE PHENIX C:68X SLX is a high-performance cross-country mountain bike, built for competitive racers seeking speed and precision. Its C:68X carbon frame is lightweight and durable, and the Shimano XTR groupset ensures reliable shifting under pressure. While it's built for speed, its RockShox SID suspension might feel underwhelming on highly technical or rough trails, making it more suited for well-maintained cross-country courses rather than aggressive downhill runs.",
+          "ratinginfo": [
+            "Good frame, but the suspension could use improvement. Not the best option for aggressive trails."
+          ],
+          "features": [
+            "C:68X carbon frame",
+            "Shimano XTR groupset",
+            "29\" wheels",
+            "RockShox SID suspension"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "b13f",
+      "regusername": "Ismikhan",
+      "email": "ismikhangeorgea@gmail.com",
+      "regpassword": "123",
+      "re_password": "123",
+      "remember": true,
+      "cart": [
+        {
+          "model": "Cannondale JEKYLL 1 - 29\" Carbon Mountainbike - 2023 - Ginger",
+          "price": 1839,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cannondale-m2.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 5,
+          "id": "40caa9af-31d9-427e-95d7-1fa298909982",
+          "catalog": "mountain",
+          "info": "The Cannondale JEKYLL 1 is a top-tier enduro bike built for aggressive trail riding and conquering technical descents. With a robust carbon frame, SRAM GX Eagle drivetrain, and Fox Float suspension, it offers superior performance in rough conditions. The bike is designed to handle steep descents and technical terrain, making it a great choice for enduro riders who crave precision, power, and control on demanding trails.",
+          "ratinginfo": [
+            "Amazing bike for enduro enthusiasts. Handles tough trails with ease."
+          ],
+          "features": [
+            "Carbon frame",
+            "SRAM GX Eagle drivetrain",
+            "Fox Float suspension",
+            "Tubeless-ready wheels"
+          ],
+          "count": 1
+        },
+        {
+          "model": "Specialized TURBO LEVO COMP - Carbon Electric Mountain Bike - 2023 - satin white sage / deep lake",
+          "price": 2087,
+          "sale": 13,
+          "catalog": "electric",
+          "o_price": 2399,
+          "imgl": "./src/assets/images/products/spec-e1.png",
+          "stockInfo": "In stock!",
+          "id": "8a66dcb8-0d31-4097-bb01-0cedc3bf691c",
+          "rating": 4.8,
+          "info": "The Specialized TURBO LEVO COMP is a high-performance electric mountain bike built for tough, rugged terrains. With a carbon frame, this bike combines lightweight strength and durability, making it ideal for off-road adventures. Its powerful motor assists with uphill climbs, providing extra power when needed.The full suspension ensures maximum comfort during bumpy rides, and the wide tires give you improved traction on challenging surfaces.Whether you're tackling steep hills or rough trails, this bike is designed to perform under extreme conditions, making it a favorite among mountain biking enthusiasts.",
+          "features": [
+            "Carbon frame for lightweight strength",
+            "Powerful motor for uphill climbs",
+            "Full suspension for maximum comfort",
+            "Wide tires for improved traction"
+          ],
+          "ratinginfo": [
+            "Highly praised for its balance of power and agility on tough trails."
+          ],
+          "count": 3
+        },
+        {
+          "model": "CUBE FOLD HYBRID Comfort 500 - 20\" Electric Folding Bike - 2025 - electricblue / reflex",
+          "price": 2229,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cube-f1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 4,
+          "id": "1e0d7a93-e78e-4b92-89bb-047d9e6548f0",
+          "catalog": "folding",
+          "info": "The CUBE FOLD HYBRID Comfort 500 is a highly practical electric folding bike designed for urban commuters seeking convenience and performance. This compact bike offers a powerful 500 Wh battery that provides an extended range, making it ideal for longer rides in the city or around town. Its lightweight folding frame ensures portability, allowing you to easily store or transport the bike when not in use. With adjustable seat and handlebars for enhanced comfort, this bike is perfect for riders of all sizes. The quick-release folding mechanism also allows for fast and easy storage, making it an excellent choice for apartment dwellers or commuters who need to carry their bike on public transport.",
+          "ratinginfo": [
+            "Well-received for its convenience and ease of use in urban settings."
+          ],
+          "features": [
+            "500 Wh battery for extended rides",
+            "Lightweight folding frame for portability",
+            "Adjustable seat and handlebars for comfort",
+            "Quick-release mechanism for easy folding"
+          ],
+          "count": 1
+        },
+        {
+          "model": "CUBE NUMOVE 140 - 14\" Kids Bike - 2025 - blue / lime",
+          "price": 279,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cube-k1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 5,
+          "id": "21e0d887-99f8-471d-991e-a3b1375c1aab",
+          "catalog": "kids",
+          "info": "The CUBE NUMOVE 140 is a durable and lightweight kids' bike designed for young riders just getting started. Its compact 14\" wheels provide extra stability for those learning to balance and ride confidently. The bike features a robust yet lightweight frame that can withstand rough handling, making it perfect for active outdoor play. With safety features like V-brakes and an adjustable seat that grows with the child, it's built to last and ensure both comfort and safety over time.",
+          "ratinginfo": [
+            "Highly rated for its quality and design suitable for kids."
+          ],
+          "features": [
+            "14\" wheels for better stability",
+            "Adjustable seat for growing kids",
+            "Robust frame to withstand rough handling",
+            "V-brakes for safe stopping"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3d83",
+      "regusername": "g",
+      "email": "g@gmail.com",
+      "regpassword": "123",
+      "re_password": "123",
+      "cart": [
+        {
+          "model": "Bombtrack MUNROE AL - 27.5\" Urban Bike - 2024 - matt pebble grey",
+          "price": 881,
+          "sale": 22,
+          "o_price": 1129,
+          "imgl": "./src/assets/images/products/boomtrack-c1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 3,
+          "id": "84ba12e6-edd0-4876-a626-7286e21bec76",
+          "catalog": "city",
+          "info": "The Bombtrack MUNROE AL is a stylish and functional urban bike, designed for those who value simplicity and modern aesthetics. Featuring 27.5\" wheels, it offers excellent stability on city roads. Its aluminum frame makes it lightweight and nimble, while the mechanical disc brakes provide reliable stopping power. With a single-speed drivetrain, the bike is easy to maintain, making it ideal for casual city riders who want minimal fuss. The sleek design and reliable build make it a popular choice for daily commutes.",
+          "ratinginfo": [
+            "Good for casual rides, but not recommended for serious trails."
+          ],
+          "features": [
+            "27.5\" wheels for stability",
+            "Aluminium frame",
+            "Mechanical disc brakes",
+            "Single-speed drivetrain"
+          ],
+          "count": 4
+        },
+        {
+          "model": "Cannondale JEKYLL 1 - 29\" Carbon Mountainbike - 2023 - Ginger",
+          "price": 1839,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cannondale-m2.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 5,
+          "id": "40caa9af-31d9-427e-95d7-1fa298909982",
+          "catalog": "mountain",
+          "info": "The Cannondale JEKYLL 1 is a top-tier enduro bike built for aggressive trail riding and conquering technical descents. With a robust carbon frame, SRAM GX Eagle drivetrain, and Fox Float suspension, it offers superior performance in rough conditions. The bike is designed to handle steep descents and technical terrain, making it a great choice for enduro riders who crave precision, power, and control on demanding trails.",
+          "ratinginfo": [
+            "Amazing bike for enduro enthusiasts. Handles tough trails with ease."
+          ],
+          "features": [
+            "Carbon frame",
+            "SRAM GX Eagle drivetrain",
+            "Fox Float suspension",
+            "Tubeless-ready wheels"
+          ],
+          "count": 1
+        },
+        {
+          "model": "CUBE NUMOVE 140 - 14\" Kids Bike - 2025 - blue / lime",
+          "price": 279,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cube-k1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 5,
+          "id": "21e0d887-99f8-471d-991e-a3b1375c1aab",
+          "catalog": "kids",
+          "info": "The CUBE NUMOVE 140 is a durable and lightweight kids' bike designed for young riders just getting started. Its compact 14\" wheels provide extra stability for those learning to balance and ride confidently. The bike features a robust yet lightweight frame that can withstand rough handling, making it perfect for active outdoor play. With safety features like V-brakes and an adjustable seat that grows with the child, it's built to last and ensure both comfort and safety over time.",
+          "ratinginfo": [
+            "Highly rated for its quality and design suitable for kids."
+          ],
+          "features": [
+            "14\" wheels for better stability",
+            "Adjustable seat for growing kids",
+            "Robust frame to withstand rough handling",
+            "V-brakes for safe stopping"
+          ],
+          "count": 1
+        },
+        {
+          "model": "Specialized STUMPJUMPER 15 PRO - Carbon Mountainbike - 2025 - satin green tint / gunmetal / satin metallic sulphur",
+          "price": 3499,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/spec-m2.png",
+          "stockInfo": "Limited stock!",
+          "added": false,
+          "rating": 4,
+          "id": "f331511f-4f22-45df-b744-49dbbd3efeed",
+          "catalog": "mountain",
+          "info": "The Specialized STUMPJUMPER 15 PRO is a versatile all-round mountain bike, designed for both trail and enduro riding. Its FACT 11m carbon frame provides stiffness and strength for aggressive descents, while the FOX Factory suspension ensures smooth handling on rough terrain. With the SRAM X01 Eagle drivetrain, the bike shifts effortlessly, making it a reliable choice for diverse riding conditions. However, its weight might be a downside for riders focusing on cross-country racing.",
+          "ratinginfo": [
+            "Handles well on both trails and descents, but a bit heavy for cross-country riding."
+          ],
+          "features": [
+            "FACT 11m carbon frame",
+            "FOX Factory suspension",
+            "SRAM X01 Eagle drivetrain",
+            "Specialized tires"
+          ],
+          "count": 1
+        },
+        {
+          "model": "2023-HARO-Johny-5-Black",
+          "price": 1149,
+          "sale": 10,
+          "o_price": 1277,
+          "imgl": "./src/assets/images/products/haro-e1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 3,
+          "id": "1eede982-3118-47cf-93c8-11d499c3f3ca",
+          "catalog": "electric",
+          "info": "The 2023 HARO Johny 5 is a stylish and functional electric bike, ideal for everyday urban commuting. With its lightweight frame, this bike offers easy handling and a smooth ride.The integrated battery gives the bike a sleek and modern appearance, without compromising on range or performance.The comfortable seating position makes it perfect for long commutes or leisurely rides around the city.Additionally, its front suspension adds extra comfort by absorbing bumps on uneven roads, making it a great option for both city streets and paved paths.",
+          "ratinginfo": [
+            "Good for city rides, but performance may vary on rough terrain."
+          ],
+          "features": [
+            "Lightweight frame for easy handling",
+            "Integrated battery for sleek design",
+            "Comfortable seating position",
+            "Front suspension for added comfort"
+          ],
+          "count": 1
+        },
+        {
+          "model": "CUBE PHENIX C:68X SLX - 29\" Carbon Mountainbike - 2025 - teamline",
+          "price": 2439,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cube-m1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 2,
+          "id": "02f4def8-f995-44c5-8349-0a4687927829",
+          "catalog": "mountain",
+          "info": "The CUBE PHENIX C:68X SLX is a high-performance cross-country mountain bike, built for competitive racers seeking speed and precision. Its C:68X carbon frame is lightweight and durable, and the Shimano XTR groupset ensures reliable shifting under pressure. While it's built for speed, its RockShox SID suspension might feel underwhelming on highly technical or rough trails, making it more suited for well-maintained cross-country courses rather than aggressive downhill runs.",
+          "ratinginfo": [
+            "Good frame, but the suspension could use improvement. Not the best option for aggressive trails."
+          ],
+          "features": [
+            "C:68X carbon frame",
+            "Shimano XTR groupset",
+            "29\" wheels",
+            "RockShox SID suspension"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1452",
+      "regusername": "Nicat",
+      "email": "Nicat@gmail.com",
+      "regpassword": "123",
+      "re_password": "123",
+      "remember": true,
+      "cart": [
+        {
+          "model": "Bombtrack MUNROE AL - 27.5\" Urban Bike - 2024 - matt pebble grey",
+          "price": 881,
+          "sale": 22,
+          "o_price": 1129,
+          "imgl": "./src/assets/images/products/boomtrack-c1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 3,
+          "id": "84ba12e6-edd0-4876-a626-7286e21bec76",
+          "catalog": "city",
+          "info": "The Bombtrack MUNROE AL is a stylish and functional urban bike, designed for those who value simplicity and modern aesthetics. Featuring 27.5\" wheels, it offers excellent stability on city roads. Its aluminum frame makes it lightweight and nimble, while the mechanical disc brakes provide reliable stopping power. With a single-speed drivetrain, the bike is easy to maintain, making it ideal for casual city riders who want minimal fuss. The sleek design and reliable build make it a popular choice for daily commutes.",
+          "ratinginfo": [
+            "Good for casual rides, but not recommended for serious trails."
+          ],
+          "features": [
+            "27.5\" wheels for stability",
+            "Aluminium frame",
+            "Mechanical disc brakes",
+            "Single-speed drivetrain"
+          ],
+          "count": 3
+        },
+        {
+          "model": "Cannondale JEKYLL 1 - 29\" Carbon Mountainbike - 2023 - Ginger",
+          "price": 1839,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cannondale-m2.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 5,
+          "id": "40caa9af-31d9-427e-95d7-1fa298909982",
+          "catalog": "mountain",
+          "info": "The Cannondale JEKYLL 1 is a top-tier enduro bike built for aggressive trail riding and conquering technical descents. With a robust carbon frame, SRAM GX Eagle drivetrain, and Fox Float suspension, it offers superior performance in rough conditions. The bike is designed to handle steep descents and technical terrain, making it a great choice for enduro riders who crave precision, power, and control on demanding trails.",
+          "ratinginfo": [
+            "Amazing bike for enduro enthusiasts. Handles tough trails with ease."
+          ],
+          "features": [
+            "Carbon frame",
+            "SRAM GX Eagle drivetrain",
+            "Fox Float suspension",
+            "Tubeless-ready wheels"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "aa61",
+      "regusername": "Narmin",
+      "email": "narmin@gmail.com",
+      "regpassword": "12",
+      "re_password": "12",
+      "cart": []
+    },
+    {
+      "id": "a8b4",
+      "regusername": "Elnur",
+      "email": "elnur@gmail.com",
+      "regpassword": "12",
+      "re_password": "12",
+      "cart": [
+        {
+          "model": "Bombtrack MUNROE AL - 27.5\" Urban Bike - 2024 - matt pebble grey",
+          "price": 881,
+          "sale": 22,
+          "o_price": 1129,
+          "imgl": "./src/assets/images/products/boomtrack-c1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 3,
+          "id": "84ba12e6-edd0-4876-a626-7286e21bec76",
+          "catalog": "city",
+          "info": "The Bombtrack MUNROE AL is a stylish and functional urban bike, designed for those who value simplicity and modern aesthetics. Featuring 27.5\" wheels, it offers excellent stability on city roads. Its aluminum frame makes it lightweight and nimble, while the mechanical disc brakes provide reliable stopping power. With a single-speed drivetrain, the bike is easy to maintain, making it ideal for casual city riders who want minimal fuss. The sleek design and reliable build make it a popular choice for daily commutes.",
+          "ratinginfo": [
+            "Good for casual rides, but not recommended for serious trails."
+          ],
+          "features": [
+            "27.5\" wheels for stability",
+            "Aluminium frame",
+            "Mechanical disc brakes",
+            "Single-speed drivetrain"
+          ],
+          "count": 2
+        },
+        {
+          "model": "Cannondale JEKYLL 1 - 29\" Carbon Mountainbike - 2023 - Ginger",
+          "price": 1839,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cannondale-m2.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 5,
+          "id": "40caa9af-31d9-427e-95d7-1fa298909982",
+          "catalog": "mountain",
+          "info": "The Cannondale JEKYLL 1 is a top-tier enduro bike built for aggressive trail riding and conquering technical descents. With a robust carbon frame, SRAM GX Eagle drivetrain, and Fox Float suspension, it offers superior performance in rough conditions. The bike is designed to handle steep descents and technical terrain, making it a great choice for enduro riders who crave precision, power, and control on demanding trails.",
+          "ratinginfo": [
+            "Amazing bike for enduro enthusiasts. Handles tough trails with ease."
+          ],
+          "features": [
+            "Carbon frame",
+            "SRAM GX Eagle drivetrain",
+            "Fox Float suspension",
+            "Tubeless-ready wheels"
+          ],
+          "count": 1
+        },
+        {
+          "model": "Specialized TURBO LEVO COMP - Carbon Electric Mountain Bike - 2023 - satin white sage / deep lake",
+          "price": 2087,
+          "sale": 13,
+          "catalog": "electric",
+          "o_price": 2399,
+          "imgl": "./src/assets/images/products/spec-e1.png",
+          "stockInfo": "In stock!",
+          "id": "8a66dcb8-0d31-4097-bb01-0cedc3bf691c",
+          "rating": 4.8,
+          "info": "The Specialized TURBO LEVO COMP is a high-performance electric mountain bike built for tough, rugged terrains. With a carbon frame, this bike combines lightweight strength and durability, making it ideal for off-road adventures. Its powerful motor assists with uphill climbs, providing extra power when needed.The full suspension ensures maximum comfort during bumpy rides, and the wide tires give you improved traction on challenging surfaces.Whether you're tackling steep hills or rough trails, this bike is designed to perform under extreme conditions, making it a favorite among mountain biking enthusiasts.",
+          "features": [
+            "Carbon frame for lightweight strength",
+            "Powerful motor for uphill climbs",
+            "Full suspension for maximum comfort",
+            "Wide tires for improved traction"
+          ],
+          "ratinginfo": [
+            "Highly praised for its balance of power and agility on tough trails."
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "loggedUser": [
+    {
+      "id": "a8b4",
+      "regusername": "Elnur",
+      "email": "elnur@gmail.com",
+      "regpassword": "12",
+      "re_password": "12",
+      "cart": [
+        {
+          "model": "Bombtrack MUNROE AL - 27.5\" Urban Bike - 2024 - matt pebble grey",
+          "price": 881,
+          "sale": 22,
+          "o_price": 1129,
+          "imgl": "./src/assets/images/products/boomtrack-c1.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 3,
+          "id": "84ba12e6-edd0-4876-a626-7286e21bec76",
+          "catalog": "city",
+          "info": "The Bombtrack MUNROE AL is a stylish and functional urban bike, designed for those who value simplicity and modern aesthetics. Featuring 27.5\" wheels, it offers excellent stability on city roads. Its aluminum frame makes it lightweight and nimble, while the mechanical disc brakes provide reliable stopping power. With a single-speed drivetrain, the bike is easy to maintain, making it ideal for casual city riders who want minimal fuss. The sleek design and reliable build make it a popular choice for daily commutes.",
+          "ratinginfo": [
+            "Good for casual rides, but not recommended for serious trails."
+          ],
+          "features": [
+            "27.5\" wheels for stability",
+            "Aluminium frame",
+            "Mechanical disc brakes",
+            "Single-speed drivetrain"
+          ],
+          "count": 2
+        },
+        {
+          "model": "Cannondale JEKYLL 1 - 29\" Carbon Mountainbike - 2023 - Ginger",
+          "price": 1839,
+          "sale": 0,
+          "o_price": 0,
+          "imgl": "./src/assets/images/products/cannondale-m2.png",
+          "stockInfo": "In stock!",
+          "added": false,
+          "rating": 5,
+          "id": "40caa9af-31d9-427e-95d7-1fa298909982",
+          "catalog": "mountain",
+          "info": "The Cannondale JEKYLL 1 is a top-tier enduro bike built for aggressive trail riding and conquering technical descents. With a robust carbon frame, SRAM GX Eagle drivetrain, and Fox Float suspension, it offers superior performance in rough conditions. The bike is designed to handle steep descents and technical terrain, making it a great choice for enduro riders who crave precision, power, and control on demanding trails.",
+          "ratinginfo": [
+            "Amazing bike for enduro enthusiasts. Handles tough trails with ease."
+          ],
+          "features": [
+            "Carbon frame",
+            "SRAM GX Eagle drivetrain",
+            "Fox Float suspension",
+            "Tubeless-ready wheels"
+          ],
+          "count": 1
+        },
+        {
+          "model": "Specialized TURBO LEVO COMP - Carbon Electric Mountain Bike - 2023 - satin white sage / deep lake",
+          "price": 2087,
+          "sale": 13,
+          "catalog": "electric",
+          "o_price": 2399,
+          "imgl": "./src/assets/images/products/spec-e1.png",
+          "stockInfo": "In stock!",
+          "id": "8a66dcb8-0d31-4097-bb01-0cedc3bf691c",
+          "rating": 4.8,
+          "info": "The Specialized TURBO LEVO COMP is a high-performance electric mountain bike built for tough, rugged terrains. With a carbon frame, this bike combines lightweight strength and durability, making it ideal for off-road adventures. Its powerful motor assists with uphill climbs, providing extra power when needed.The full suspension ensures maximum comfort during bumpy rides, and the wide tires give you improved traction on challenging surfaces.Whether you're tackling steep hills or rough trails, this bike is designed to perform under extreme conditions, making it a favorite among mountain biking enthusiasts.",
+          "features": [
+            "Carbon frame for lightweight strength",
+            "Powerful motor for uphill climbs",
+            "Full suspension for maximum comfort",
+            "Wide tires for improved traction"
+          ],
+          "ratinginfo": [
+            "Highly praised for its balance of power and agility on tough trails."
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

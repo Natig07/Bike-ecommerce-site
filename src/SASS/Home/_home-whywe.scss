@@ -1,0 +1,601 @@
+.subs-info {
+	padding: 40px 50px;
+	text-align: center;
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.119),
+			rgba(0, 0, 0, 0.333),
+			rgba(0, 0, 0, 0.646)
+		),
+		url("/src//assets/images/bikes-shop.jpeg");
+	background-size: cover;
+	background-position: 30% -30%;
+	background-attachment: fixed;
+	min-height: 300px;
+	color: white;
+	overflow: hidden;
+	.subs-info-div {
+		h1 {
+			font-size: 45px;
+			letter-spacing: 0.2rem;
+			width: 65%;
+			margin: auto;
+			border-radius: 14px;
+			background-color: #0d680f5e;
+			backdrop-filter: blur(10px);
+		}
+		h4 {
+			font-size: 17px;
+			font-weight: 400;
+			font-style: oblique;
+			margin: 30px auto;
+			width: 55%;
+			letter-spacing: 0.1rem;
+			padding: 3px;
+			background-color: #0b4e0ccf;
+			color: aliceblue;
+			border-radius: 10px;
+		}
+		.subs-info-btn {
+			padding: 20px;
+			font-size: larger;
+			color: #0d680e;
+			font-weight: bold;
+			letter-spacing: 1px;
+			border: none !important;
+			box-shadow: none !important;
+			outline: none !important;
+			border-color: #0e7910;
+			transition: 0.5s ease;
+			&:hover {
+				color: aliceblue !important;
+				background-color: #117912 !important;
+			}
+			&:active {
+				box-shadow: 0 0 20px #0e7910 !important;
+			}
+		}
+
+		transform: translateY(200px);
+		opacity: 0;
+		animation: subs-info-move 2s forwards ease;
+	}
+	@keyframes subs-info-move {
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+}
+
+.why-choose {
+	padding: 40px;
+	padding-top: 10px;
+	h1 {
+		font-size: 50px;
+		color: rgb(15, 90, 26);
+		text-align: center;
+		text-transform: capitalize;
+	}
+	h3 {
+		text-align: center;
+		font-size: 21px;
+		margin: 15px 0;
+		font-style: italic;
+		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		color: #117912;
+		font-weight: 500;
+	}
+	.why-boxes {
+		width: 95%;
+		margin: 0 auto;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.why-box {
+			width: 20%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.why-icon {
+				font-size: 52px;
+				color: #117912;
+				width: 42%;
+			}
+			&:first-child .why-icon {
+				font-size: 70px;
+			}
+			p {
+				font-size: 13px;
+				width: 57%;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+.logo-slide {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+	.logo-slide-inner {
+		display: flex;
+		align-items: center;
+		gap: 2em;
+		transform: translateX(40%);
+		animation: logoSlide-Move 17s linear infinite;
+		div {
+			width: 40%;
+			padding: 0.3rem;
+			img {
+				width: 100%;
+				height: 83px;
+				object-fit: contain;
+			}
+		}
+	}
+	@keyframes logoSlide-Move {
+		0% {
+			transform: translateX(100%);
+		}
+		100% {
+			transform: translateX(-70%);
+		}
+	}
+}
+//#44A445
+body.dark-mode {
+	.subs-info {
+		background-image: linear-gradient(
+				rgba(0, 0, 0, 0.119),
+				rgba(0, 0, 0, 0.333),
+				rgba(0, 0, 0, 0.781)
+			),
+			url("/src//assets/images/bikes-shop.jpeg");
+
+		.subs-info-div {
+			h1 {
+				background-color: #1d4a1e;
+			}
+			h4 {
+				background-color: #1d4a1e;
+			}
+			.subs-info-btn {
+				color: var(--white3);
+				border-color: #0e7910;
+				background-color: #111111;
+				transition: 0.5s ease;
+				&:hover {
+					background-color: #117912 !important;
+				}
+				&:active {
+					box-shadow: 0 0 20px #0e7910 !important;
+				}
+			}
+		}
+	}
+
+	.why-choose {
+		h1 {
+			color: rgb(31, 142, 48);
+		}
+		h3 {
+			color: #1f8c21;
+		}
+		.why-boxes {
+			.why-box {
+				.why-icon {
+					font-size: 52px;
+					color: #258e27;
+					width: 42%;
+				}
+				&:first-child .why-icon {
+					font-size: 70px;
+				}
+				p {
+					color: white;
+				}
+			}
+		}
+	}
+	.logo-slide {
+		.logo-slide-inner {
+			div {
+				img {
+					filter: drop-shadow(0px 0px 3px white);
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1040px) {
+	.subs-info {
+		padding: 30px 40px;
+		background-position: 30% -30%;
+		.subs-info-div {
+			h1 {
+				font-size: 3rem;
+				letter-spacing: 0.2rem;
+				width: 60%;
+				border-radius: 12px;
+			}
+			h4 {
+				font-size: 1.2rem;
+				margin: 20px auto;
+				width: 52%;
+				border-radius: 8px;
+			}
+			.subs-info-btn {
+				padding: 20px 15px;
+			}
+		}
+	}
+
+	.why-choose {
+		padding: 30px;
+		padding-top: 10px;
+		h1 {
+			font-size: 3.4rem;
+		}
+		h3 {
+			font-size: 1.7rem;
+			margin: 12px 0;
+		}
+		.why-boxes {
+			.why-box {
+				width: 20%;
+
+				.why-icon {
+					font-size: 3.4rem;
+					width: 40%;
+				}
+				&:first-child .why-icon {
+					font-size: 5rem;
+				}
+				p {
+					font-size: 0.9rem;
+					width: 58%;
+				}
+			}
+		}
+	}
+	body.dark-mode {
+		.subs-info {
+			padding: 30px 40px;
+			background-position: 30% -30%;
+			.subs-info-div {
+				h1 {
+					font-size: 3rem;
+					letter-spacing: 0.2rem;
+					width: 60%;
+					border-radius: 12px;
+				}
+				h4 {
+					font-size: 1.2rem;
+					margin: 20px auto;
+					width: 52%;
+					border-radius: 8px;
+				}
+				.subs-info-btn {
+					padding: 20px 15px;
+				}
+			}
+		}
+
+		.why-choose {
+			padding: 30px;
+			padding-top: 10px;
+			h1 {
+				font-size: 3.4rem;
+			}
+			h3 {
+				font-size: 1.7rem;
+				margin: 12px 0;
+			}
+			.why-boxes {
+				.why-box {
+					width: 20%;
+
+					.why-icon {
+						font-size: 3.4rem;
+						width: 40%;
+					}
+					&:first-child .why-icon {
+						font-size: 5rem;
+					}
+					p {
+						font-size: 0.9rem;
+						width: 58%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 884px) {
+	.subs-info {
+		padding: 20px 30px;
+		background-position: 30% -30%;
+		.subs-info-div {
+			h1 {
+				font-size: 2.5rem;
+				letter-spacing: 0.2rem;
+				width: 53%;
+				border-radius: 10px;
+			}
+			h4 {
+				font-size: 1.1rem;
+				margin: 14px auto;
+				width: 48%;
+				border-radius: 6px;
+			}
+			.subs-info-btn {
+				padding: 18px 12px;
+				font-size: 1.1rem;
+			}
+		}
+	}
+
+	.why-choose {
+		padding: 20px;
+		padding-top: 10px;
+		h1 {
+			font-size: 3rem;
+		}
+		h3 {
+			font-size: 1.5rem;
+			margin: 8px 0;
+		}
+		.why-boxes {
+			flex-wrap: wrap;
+			justify-content: center;
+			.why-box {
+				width: 33%;
+				margin: 10px 0;
+				.why-icon {
+					font-size: 3rem;
+					width: 30%;
+				}
+				&:first-child .why-icon {
+					font-size: 4rem;
+				}
+				p {
+					font-size: 0.8rem;
+					width: 58%;
+				}
+			}
+		}
+	}
+	.logo-slide {
+		gap: 1.3em;
+		padding: 10px;
+		.logo-slide-inner {
+			gap: 1em;
+			div {
+				width: 43%;
+				padding: 0.2rem;
+			}
+		}
+	}
+	body.dark-mode {
+		.subs-info {
+			padding: 20px 30px;
+			background-position: 30% -30%;
+			.subs-info-div {
+				h1 {
+					font-size: 2.5rem;
+					letter-spacing: 0.2rem;
+					width: 53%;
+					border-radius: 10px;
+				}
+				h4 {
+					font-size: 1.1rem;
+					margin: 14px auto;
+					width: 48%;
+					border-radius: 6px;
+				}
+				.subs-info-btn {
+					padding: 18px 12px;
+					font-size: 1.1rem;
+				}
+			}
+		}
+
+		.why-choose {
+			padding: 20px;
+			padding-top: 10px;
+			h1 {
+				font-size: 3rem;
+			}
+			h3 {
+				font-size: 1.5rem;
+				margin: 8px 0;
+			}
+			.why-boxes {
+				flex-wrap: wrap;
+				justify-content: center;
+				.why-box {
+					width: 33%;
+					margin: 10px 0;
+					.why-icon {
+						font-size: 3rem;
+						width: 30%;
+					}
+					&:first-child .why-icon {
+						font-size: 4rem;
+					}
+					p {
+						font-size: 0.8rem;
+						width: 58%;
+					}
+				}
+			}
+		}
+		.logo-slide {
+			gap: 1.3em;
+			padding: 10px;
+			.logo-slide-inner {
+				gap: 1em;
+				div {
+					width: 43%;
+					padding: 0.2rem;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.subs-info {
+		padding: 4rem 1.7rem;
+		background-position: center;
+		background-attachment: local;
+		height: 100px !important;
+		padding-bottom: 0;
+		.subs-info-div {
+			height: fit-content;
+			justify-content: center;
+			h1 {
+				font-size: 1.8rem;
+				letter-spacing: 0.1rem;
+				width: 56%;
+				border-radius: 8px;
+			}
+			h4 {
+				font-size: 0.9rem;
+				margin: 1.5rem auto;
+				width: 88%;
+				border-radius: 4px;
+			}
+			.subs-info-btn {
+				padding: 1.4rem 1rem;
+				font-size: 1.1rem;
+			}
+		}
+	}
+
+	.why-choose {
+		padding: 1.4rem;
+		padding-top: 8px;
+		h1 {
+			font-size: 2rem;
+		}
+		h3 {
+			font-size: 1.3rem;
+		}
+		.why-boxes {
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 1rem;
+			.why-box {
+				width: 45%;
+				margin: 10px 0;
+				.why-icon {
+					font-size: 2.4rem;
+					width: 30%;
+				}
+				&:first-child .why-icon {
+					font-size: 3.4rem;
+				}
+				p {
+					font-size: 0.9rem;
+					width: 68%;
+				}
+			}
+		}
+	}
+	.logo-slide {
+		gap: 0.6em;
+		padding: 8px;
+		.logo-slide-inner {
+			gap: 0em;
+			div {
+				width: 50%;
+				padding: 0.1rem;
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+	body.dark-mode {
+		.subs-info {
+			padding: 4rem 1.7rem;
+			background-position: center;
+			background-attachment: local;
+			height: 100px !important;
+			padding-bottom: 0;
+			.subs-info-div {
+				height: fit-content;
+				justify-content: center;
+				h1 {
+					font-size: 1.8rem;
+					letter-spacing: 0.1rem;
+					width: 56%;
+					border-radius: 8px;
+				}
+				h4 {
+					font-size: 0.9rem;
+					margin: 1.5rem auto;
+					width: 88%;
+					border-radius: 4px;
+				}
+				.subs-info-btn {
+					padding: 1.4rem 1rem;
+					font-size: 1.1rem;
+				}
+			}
+		}
+
+		.why-choose {
+			padding: 1.4rem;
+			padding-top: 8px;
+			h1 {
+				font-size: 2rem;
+			}
+			h3 {
+				font-size: 1.3rem;
+			}
+			.why-boxes {
+				flex-wrap: wrap;
+				justify-content: center;
+				padding: 1rem;
+				.why-box {
+					width: 45%;
+					margin: 10px 0;
+					.why-icon {
+						font-size: 2.4rem;
+						width: 30%;
+					}
+					&:first-child .why-icon {
+						font-size: 3.4rem;
+					}
+					p {
+						font-size: 0.9rem;
+						width: 68%;
+					}
+				}
+			}
+		}
+		.logo-slide {
+			gap: 0.6em;
+			padding: 8px;
+			.logo-slide-inner {
+				gap: 0em;
+				div {
+					width: 50%;
+					padding: 0.1rem;
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+}
