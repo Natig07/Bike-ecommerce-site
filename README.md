@@ -1,4 +1,6 @@
 # React + Vite
+Click to see website (some images not loaded correclty by vercel):
+https://bike-ecommerce-site.vercel.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
